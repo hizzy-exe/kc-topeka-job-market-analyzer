@@ -1,0 +1,23 @@
+==================================================
+KANSAS CITY & TOPEKA JOB MARKET ANALYSIS EXECUTIVE SUMMARY
+==================================================
+
+1. SALARY BENCHMARKS BY TECHNICAL ROLE:
+   - Business Analyst: $77,702.59
+   - Data Analyst: $77,172.17
+   - Data Scientist: $109,296.33
+   - Financial Analyst: $79,710.15
+   - Python Developer: $78,199.94
+   - Software Engineer: $109,151.80
+
+2. WORK MODE INFRASTRUCTURE SPLIT:
+   - Hybrid: 38.0%
+   - Remote: 33.0%
+   - On-site: 29.0%
+
+3. CORE COMPETENCY DEMAND RANKINGS:
+   - Finance: Cited in 68 local postings
+   - Agile: Cited in 65 local postings
+   - Tableau: Cited in 63 local postings
+   - R: Cited in 62 local postings
+   - AWS: Cited in 62 local postings
