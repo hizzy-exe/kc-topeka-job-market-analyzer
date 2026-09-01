@@ -1,23 +1,30 @@
 ==================================================
-KANSAS CITY & TOPEKA JOB MARKET ANALYSIS EXECUTIVE SUMMARY
+KANSAS CITY & TOPEKA JOB MARKET REGIONAL SUMMARY
 ==================================================
 
 1. SALARY BENCHMARKS BY TECHNICAL ROLE:
-   - Business Analyst: $77,702.59
-   - Data Analyst: $77,172.17
-   - Data Scientist: $109,296.33
-   - Financial Analyst: $79,710.15
-   - Python Developer: $78,199.94
-   - Software Engineer: $109,151.80
+   - Business Analyst: $75,751.23
+   - Data Analyst: $76,812.33
+   - Data Scientist: $110,738.55
+   - Financial Analyst: $78,293.39
+   - Python Developer: $75,883.03
+   - Software Engineer: $115,146.74
 
 2. WORK MODE INFRASTRUCTURE SPLIT:
-   - Hybrid: 38.0%
-   - Remote: 33.0%
-   - On-site: 29.0%
+   - Hybrid: 43.0%
+   - Remote: 31.0%
+   - On-site: 26.0%
 
 3. CORE COMPETENCY DEMAND RANKINGS:
-   - Finance: Cited in 68 local postings
-   - Agile: Cited in 65 local postings
-   - Tableau: Cited in 63 local postings
-   - R: Cited in 62 local postings
-   - AWS: Cited in 62 local postings
+   - Python: Cited in 106 local postings
+   - SQL: Cited in 105 local postings
+   - Excel: Cited in 100 local postings
+   - PowerBI: Cited in 98 local postings
+   - Tableau: Cited in 92 local postings
+
+4. TOP ACTIVE HIRING EMPLOYERS IN THE REGION:
+   - H&R Block: 46 active open positions
+   - Federal Reserve Bank of KC: 37 active open positions
+   - Garmin: 33 active open positions
+   - T-Mobile: 30 active open positions
+   - Commerce Bank: 28 active open positions
