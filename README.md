@@ -1,0 +1,1 @@
+A production-grade Python ETL pipeline that extracts raw, unstructured regional economic metrics via public APIs. The script sanitizes messy payloads, enforces data types, and normalizes the output into a clean, relational schema. Developed with a focus on data integrity, automated validation testing, and structured logging for corporate analyst workflows.
