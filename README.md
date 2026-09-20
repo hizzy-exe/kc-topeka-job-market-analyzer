@@ -4,6 +4,7 @@ An automated end-to-end Extract, Transform, Load (ETL) pipeline that collects, c
 
 The pipeline pulls real-time data from the Adzuna Jobs API, normalizes the records, extracts in-demand skills and work-mode signals, and produces summary statistics, visualizations, and an executive report.
 
+
 ## Features
 
 - Live data collection from the Adzuna API with retry logic and rate limiting
@@ -12,7 +13,56 @@ The pipeline pulls real-time data from the Adzuna Jobs API, normalizes the recor
 - Salary distribution analysis and employer/location rankings
 - Generation of charts and a plain-text executive summary report
 
+
+## Setup
+
+**1. Clone the repository**
+
+git clone https://github.com/hizzy-exe/kc-topeka-job-market-analyzer.git
+cd kc-topeka-job-market-analyzer
+
+
+**2. Create and activate a virtual environment**
+
+python -m venv venv
+source venv/bin/activate
+
+On Windows use:
+venv\Scripts\activate
+
+
+**3. Install dependencies**
+
+pip install -r requirements.txt
+
+
+**4. Configure API credentials**
+
+- Copy `.env.example` to `.env`
+- Get free keys from https://developer.adzuna.com/
+- Add them to the `.env` file:
+ADZUNA_APP_ID=your_app_id_here
+ADZUNA_APP_KEY=your_app_key_here
+
+
+## Usage
+
+Run the full pipeline:
+python main.py
+
+
+The pipeline runs in four stages:
+
+1. Extract – Fetches live job postings from Adzuna
+2. Transform – Cleans and normalizes the data
+3. Analyze – Computes salary, skill, employer, and work-mode metrics
+4. Load – Generates charts and an executive summary report
+
+Outputs are saved in the `data/` and `output/` folders.
+
+
 ## Project Structure
+
 kc-topeka-job-market-analyzer/
 ├── main.py
 ├── config.py
@@ -33,49 +83,6 @@ kc-topeka-job-market-analyzer/
 └── README.md
 
 
-## Setup
-
-**1. Clone the repository**
-git clone https://github.com/hizzy-exe/kc-topeka-job-market-analyzer.git
-cd kc-topeka-job-market-analyzer
-
-
-**2. Create and activate a virtual environment**
-python -m venv venv
-source venv/bin/activate
-
-From Command Prompt use:
-venv\Scripts\activate
-
-
-**3. Install dependencies**
-pip install -r requirements.txt
-
-
-**4. Configure API credentials**
-
-- Copy `.env.example` to `.env`
-- Get free keys from https://developer.adzuna.com/
-- Put them in the `.env` file like this:
-  ADZUNA_APP_ID=your_app_id_here
-  ADZUNA_APP_KEY=your_app_key_here
-
-
-## Usage
-
-Run the full pipeline with:
-python main.py
-
-
-The pipeline runs in four stages:
-
-1. Extract – Fetches live job postings from Adzuna  
-2. Transform – Cleans and normalizes the data  
-3. Analyze – Computes salary, skill, employer, and work-mode metrics  
-4. Load – Generates charts and an executive summary report  
-
-Outputs are saved in the `data/` and `output/` folders.
-
 ## Requirements
 
 - Python 3.10+
@@ -85,4 +92,3 @@ Outputs are saved in the `data/` and `output/` folders.
 ## License
 
 This project is provided for educational and portfolio purposes.
-
