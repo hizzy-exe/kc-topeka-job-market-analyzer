@@ -67,7 +67,7 @@ kc-topeka-job-market-analyzer/
 ├── main.py
 ├── config.py
 ├── src/
-│   ├── init.py
+│   ├── __init__.py
 │   ├── data_collection.py
 │   ├── data_cleaning.py
 │   ├── analysis.py
@@ -81,6 +81,7 @@ kc-topeka-job-market-analyzer/
 ├── .env.example
 ├── requirements.txt
 └── README.md
+
 
 
 ## Requirements
