@@ -83,8 +83,6 @@ kc-topeka-job-market-analyzer/
 └── README.md
 
 
-
-
 ## Requirements
 
 - Python 3.10+
