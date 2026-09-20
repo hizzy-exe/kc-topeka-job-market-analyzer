@@ -11,10 +11,11 @@ Generation of charts and a plain-text executive summary report
 
 Project Structure
 kc-topeka-job-market-analyzer/
+kc-topeka-job-market-analyzer/
 ├── main.py                 # Pipeline orchestrator
 ├── config.py               # Configuration and path management
 ├── src/
-│   ├── init.py
+│   ├── __init__.py
 │   ├── data_collection.py  # API extraction
 │   ├── data_cleaning.py    # Data transformation
 │   ├── analysis.py         # Market analysis
